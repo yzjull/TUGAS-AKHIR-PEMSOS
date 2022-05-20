@@ -12,3 +12,6 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir praktikum pemodelan osea
 5. Zalfa Karima
 6. Nadina raisa
 7. Muhammad Aulia Ababil
+
+
+Kelompok 8/download.jpg
