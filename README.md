@@ -6,4 +6,9 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir praktikum pemodelan osea
 
 # Penulis (KELOMPOK 8)
 1. Adnan Izzul Muttaqin
-2. 
+2. Dika Surya Pratama
+3. Anindita Rahma candra Sekar
+4. Eldeenio Akeyla Ibrahim
+5. Zalfa Karima
+6. Nadina raisa
+7. Muhammad Aulia Ababil
