@@ -14,4 +14,4 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir praktikum pemodelan osea
 7. Muhammad Aulia Ababil
 
 
-Kelompok 8/download.jpg
+
