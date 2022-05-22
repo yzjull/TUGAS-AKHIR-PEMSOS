@@ -7,7 +7,7 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Osea
 # A. Penulis (Kelompok 8)
 1. Adnan Izzul Muttaqin    26050120130102 0SE A
 2. Dika Surya Pratama
-3. Anindita Rahma Candrasekar
+3. Anindita Rahma Candrasekar 26050120130111 OSE A
 4. Eldeenio Akeyla Ibrahim
 5. Zalfa Karima
 6. Nadina raisa 26050120140161 OSE B
@@ -21,6 +21,7 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Osea
 3. Modul 4
 
 :card_index_dividers: **1. MODUL 2**
+
 
 :card_index_dividers: **2. MODUL 3 : HIDRODINAMIKA 1 DIMENSI**
 
