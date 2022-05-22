@@ -11,7 +11,7 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Osea
 4. Eldeenio Akeyla Ibrahim
 5. Zalfa Karima
 6. Nadina raisa
-7. Muhammad Aulia Ababil
+7. Muhammad Aulia Ababil 26050120140112 Ose B
 
 
 
