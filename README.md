@@ -36,7 +36,9 @@ Hukum momentum
 Hukum konservasi massa atau kontinuitas
 
 ✰  sehingga persamaan yang digunakan antara lain :
+
 Persamaan momentum
+
 Persamaan kontinuitas
 
 ✰ Pada hasil script kita akan mendapatkan hasil berupa grafik Perubahan Kecepatan Arus dalam grid tertentu di sepanjang waktu; Perubahan elevasi permukaan air dalam grid tertentu di sepanjang waktu; Perubahan kecepatan arus dalam waktu tertentu di sepanjang grid; dan perubahan elevasi permukaan air dalam waktu tertentu di sepanjang grid.
