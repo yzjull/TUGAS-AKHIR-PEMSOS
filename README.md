@@ -32,14 +32,13 @@ Fenomena pasang dan surut, membangkitkan arus pasang dan surut, kemudian membawa
 ✰ Kelemahan dari hidrodinamika yaitu memiliki terlalu banyak data dan rentan error serta membutuhkan waktu simulasi yang lama, apabila terdapat perhitungan aliran kritis
 
 ✰ Hukum- hukum yang berlaku dalam hidrodinamika 1D adalah
-Hukum momentum
-Hukum konservasi massa atau kontinuitas
+1. Hukum momentum
+2. Hukum konservasi massa atau kontinuitas
 
 ✰  sehingga persamaan yang digunakan antara lain :
 
-Persamaan momentum
-
-Persamaan kontinuitas
+1. Persamaan momentum
+2. Persamaan kontinuitas
 
 ✰ Pada hasil script kita akan mendapatkan hasil berupa grafik Perubahan Kecepatan Arus dalam grid tertentu di sepanjang waktu; Perubahan elevasi permukaan air dalam grid tertentu di sepanjang waktu; Perubahan kecepatan arus dalam waktu tertentu di sepanjang grid; dan perubahan elevasi permukaan air dalam waktu tertentu di sepanjang grid.
 
