@@ -13,5 +13,17 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Osea
 6. Nadina raisa
 7. Muhammad Aulia Ababil 26050120140112 Ose B
 
+**B. Cara Penggunaan Executable File (.exe)💻**
 
+**C. Metode Pengerjaan**
+1. Modul 2
+2. Modul 3
+3. Modul 4
+
+**1. MODUL 2**
+
+**2. MODUL 3 : HIDRODINAMIKA 1 DIMENSI**
+
+
+**3. MODUL 4**
 
