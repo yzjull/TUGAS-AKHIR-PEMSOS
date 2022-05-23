@@ -22,7 +22,8 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Osea
 
      Modul 3
 
-     Modul 4
+  [Modul 4](#modul-4)
+  
 ## 🗂️ **MODUL 1**
 ## :card_index_dividers: **MODUL 2**
 
