@@ -22,7 +22,7 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Osea
 
   [Modul 3](#modul-3)
 
-  [Modul 4](##:card_index_dividers:-**MODUL-4**-:-**HIDRODINAMIKA-2-DiMENSI**)
+  [Modul 4](#modul-4)
   
 ## 🗂️ **MODUL 1**
 ## :card_index_dividers: **MODUL 2**
@@ -123,4 +123,18 @@ ax3.set_ylabel('water Temperature [degC]')
 ```python
 plt.show()
 ```
+* Kemduian setelah itu kita tinggal melakukan running dari script pemodelan tersebut. Simpan hasil grafik yang telah berhasil didapatkan.
+* Buka Website NDBC-NOAA
+
+![website buka](https://user-images.githubusercontent.com/105930126/169840854-dd67ad34-84db-41df-a19d-af5cdb0f49d1.jpg)
+
+* Kemudian bisa kita cari id stasiun yang kita gunakan pada script tadi melalui kolom pencarian
+
+![Screenshot 2022-05-23 212335](https://user-images.githubusercontent.com/105930126/169841337-90b7c846-8ccd-4fa4-90ac-5c02b2e34f8a.jpg)
+
+* kemudian kita dapat melakukan analisis terhadap keadaan buoy terkait dengan lokasi dan sebagainnya dari website tersebut.
+
+### :label: Hasil dan Pembahasan
+***
+
       
