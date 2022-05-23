@@ -17,7 +17,9 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Osea
 
 # **3. Metode Pengerjaan**
 3.1 Modul 2
+
 3.2 Modul 3
+
 3.3 Modul 4
 
 :card_index_dividers: **3.1 MODUL 2**
