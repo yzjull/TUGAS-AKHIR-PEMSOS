@@ -67,7 +67,7 @@ Fenomena pasang dan surut, membangkitkan arus pasang dan surut, kemudian membawa
   * Langkah pertama yang perlu dilakukan apabila belum terdapat library matplotlib dan Siphon kita perlu menginstal library tersebut dengan menggunakan anaconda prompt. Code dibawah merupakan code untuk mengistall library siphon, kemudian jika dituliskan pada anaconda prompt lalu tekan enter dan tunggu hingga berhasil
   
         (base) C:\Users\ACER>pip install siphon
-* Kemudian dalam pemodelan di modul 4 berdasarkan data yang telah disedian oleh NDBC
+* Kemudian dalam pemodelan di modul 4 berdasarkan data yang telah disedikan oleh NDBC
 
 ```python
 # Copyright (c) 2018 Siphon Contributors
@@ -119,7 +119,7 @@ ax2b.set_ylabel('Wind Direction')
 ax3.plot(df['time'], df['water_temperature'], color='tab:red')
 ax3.set_ylabel('water Temperature [degC]')
 ```
-* kemudian langkah terakhir yaitu kita perlu memberikan perintah untuk kemudian menampilkan hasil ploting grafik tersebut
+* kemudian langkah terakhir yaitu kita perlu memberikan perintah untuk kemudian menampilkan hasil plotting grafik tersebut
 ```python
 plt.show()
 ```
@@ -136,5 +136,7 @@ plt.show()
 
 ### :label: Hasil dan Pembahasan
 ***
+* Hasil dari running script tersebut berupa 3 grafik seperti pada gambar dibawah ini
+![hasil](https://user-images.githubusercontent.com/105930126/169843509-04ea5ab9-e1b2-451d-ad5a-ca0438dd42e0.jpg)
 
       
