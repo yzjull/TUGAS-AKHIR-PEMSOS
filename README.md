@@ -38,6 +38,7 @@ diketahui melalui solusi dari model persamaan difusi-adveksi yang dinotasikan de
 u(𝑥,t). Untuk lebih jelasnya, dapat dijelaskan menggunakan script di bawah ini.
 ### :label: Langkah Pengerjaan Script Adveksi-Difusi 2 Dimensi
   ***
+* Seperti yang telah dijelaskan di pendahuluan, pada modul 2 ini kita perlu menggunakan library berupa matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
