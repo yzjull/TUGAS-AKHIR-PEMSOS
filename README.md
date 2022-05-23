@@ -136,7 +136,9 @@ plt.show()
 
 ### :label: Hasil dan Pembahasan
 ***
+
 * Hasil dari running script tersebut berupa 3 grafik seperti pada gambar dibawah ini
+
 ![hasil](https://user-images.githubusercontent.com/105930126/169843509-04ea5ab9-e1b2-451d-ad5a-ca0438dd42e0.jpg)
 
       
