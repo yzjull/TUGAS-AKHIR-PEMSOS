@@ -42,6 +42,7 @@ u(𝑥,t). Untuk lebih jelasnya, dapat dijelaskan menggunakan script di bawah in
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
+```
 
 ## :card_index_dividers: **MODUL 3 : HIDRODINAMIKA 1 DIMENSI**
 
