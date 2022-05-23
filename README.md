@@ -16,11 +16,11 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Osea
 # **Cara Penggunaan Executable File (.exe)💻**
 
 # **Metode Pengerjaan**
-     Modul 1
+  [Modul 1](#modul-1)
     
-     Modul 2
+  [Modul 2](#modul-2)
 
-     Modul 3
+  [Modul 3](#modul-3)
 
   [Modul 4](#modul-4)
   
@@ -55,7 +55,7 @@ Fenomena pasang dan surut, membangkitkan arus pasang dan surut, kemudian membawa
 
 
 
-## :card_index_dividers: **MODUL 4** : **HIDRODINAMIKA 2 DiMENSI**
+## [:card_index_dividers: **MODUL 4** : **HIDRODINAMIKA 2 DiMENSI**]
   
   ### :label: Pendahuluan 
   ***
