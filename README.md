@@ -55,7 +55,7 @@ Fenomena pasang dan surut, membangkitkan arus pasang dan surut, kemudian membawa
 
 
 
-## [:card_index_dividers: **MODUL 4** : **HIDRODINAMIKA 2 DiMENSI**](#modul-4)
+## :card_index_dividers: **MODUL 4** : **HIDRODINAMIKA 2 DiMENSI**
   
   ### :label: Pendahuluan 
   ***
