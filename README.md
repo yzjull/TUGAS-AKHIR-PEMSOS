@@ -43,6 +43,7 @@ Fenomena pasang dan surut, membangkitkan arus pasang dan surut, kemudian membawa
 1. Persamaan momentum
 2. Persamaan kontinuitas
 
+
 ✰ Pada hasil script kita akan mendapatkan hasil berupa grafik Perubahan Kecepatan Arus dalam grid tertentu di sepanjang waktu; Perubahan elevasi permukaan air dalam grid tertentu di sepanjang waktu; Perubahan kecepatan arus dalam waktu tertentu di sepanjang grid; dan perubahan elevasi permukaan air dalam waktu tertentu di sepanjang grid.
 
 
