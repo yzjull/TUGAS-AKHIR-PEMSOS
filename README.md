@@ -60,7 +60,7 @@ Fenomena pasang dan surut, membangkitkan arus pasang dan surut, kemudian membawa
   * Dalam Hidrodinamika 2 Dimensi ini bisa dimanfaatkan atau digunakan untuk peninjauan gaya pembangkit arus yang disebabkan angin.
   ### :label: Langkah Pengerjaan Script Hidrodinamika 2 Dimensi
   ***
-  * Langkah pertama yang perlu dilakukan apabila belum terdapat library matplotlib dan Siphon kita perlu menginstal library tersebut dengan menggunakan anaconda prompt
+  * Langkah pertama yang perlu dilakukan apabila belum terdapat library matplotlib dan Siphon kita perlu menginstal library tersebut dengan menggunakan anaconda prompt. Code dibawah merupakan code untuk mengistall library siphon, kemudian jika dituliskan pada anaconda prompt lalu tekan enter dan tunggu hingga berhasil
   
-        (base) C:\Users\ACER>pip instla siphon
+        (base) C:\Users\ACER>pip install siphon
 
