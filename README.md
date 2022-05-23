@@ -5,13 +5,13 @@ HALOOO...HALLOOOOO 👋:wave::wave:...
 Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Oseanografi 2022. Dalam repositori ini memuat terkait dengan pembahasan modul 1 hingga modul 4 beserta script pemodelan yang digunakan dalam praktikum
 
 # Penulis (Kelompok 8)
-1. Adnan Izzul Muttaqin    26050120130102 0SE A
+1. Adnan Izzul Muttaqin    26050120130102 OSE A
 2. Dika Surya Pratama
 3. Anindita Rahma Candrasekar 26050120130111 OSE A
 4. Eldeenio Akeyla Ibrahim
 5. Zalfa Karima
-6. Nadina raisa 26050120140161 OSE B
-7. Muhammad Aulia Ababil 26050120140112 Ose B
+6. Nadina Raisa 26050120140161 OSE B
+7. Muhammad Aulia Ababil 26050120140112 OSE B
 
 # **Cara Penggunaan Executable File (.exe)💻**
 
@@ -25,8 +25,10 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Osea
   [Modul 4](#modul-4)
   
 ## 🗂️ **MODUL 1**
-## :card_index_dividers: **MODUL 2**
+## :card_index_dividers: **MODUL 2 : ADVEKSI-DIFUSI 2 DIMENSI**
 
+### :label: Pendahuluan 
+  ***
 ✰ Persamaan difusi-adveksi merupakan model matematika yang menggambarkan proses transportasi suatu zat yang dipengaruhi oleh gaya gravitasi dan penyebaran yang sekaligus. Zat yang dimaksud cenderung berupa fluida (gas atau cair).
 
 ✰ Penerapan adveksi difusi 2 dimensi dapat dilihat pada pergerakan polutan, pencemaran sungai, maupun kebakaran hutan.
@@ -34,6 +36,11 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Osea
 ✰ Konsentrasi polutan di dalam air maupun udara pada posisi 𝑥 dan pada saat 𝑡 dapat 
 diketahui melalui solusi dari model persamaan difusi-adveksi yang dinotasikan dengan 
 u(𝑥,t). Untuk lebih jelasnya, dapat dijelaskan menggunakan script di bawah ini.
+### :label: Langkah Pengerjaan Script Adveksi-Difusi 2 Dimensi
+  ***
+import matplotlib.pyplot as plt
+import numpy as np
+import sys
 
 ## :card_index_dividers: **MODUL 3 : HIDRODINAMIKA 1 DIMENSI**
 
