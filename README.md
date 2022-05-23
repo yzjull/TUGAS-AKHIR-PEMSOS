@@ -38,6 +38,7 @@ diketahui melalui solusi dari model persamaan difusi-adveksi yang dinotasikan de
 u(𝑥,t). Untuk lebih jelasnya, dapat dijelaskan menggunakan script di bawah ini.
 ### :label: Langkah Pengerjaan Script Adveksi-Difusi 2 Dimensi
   ***
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
