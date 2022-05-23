@@ -31,6 +31,10 @@ Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Osea
 
 ✰ Penerapan adveksi difusi 2 dimensi dapat dilihat pada pergerakan polutan, pencemaran sungai, maupun kebakaran hutan.
 
+✰ Konsentrasi polutan di dalam air maupun udara pada posisi 𝑥 dan pada saat 𝑡 dapat 
+diketahui melalui solusi dari model persamaan difusi-adveksi yang dinotasikan dengan 
+u(𝑥,t). Untuk lebih jelasnya, dapat dijelaskan menggunakan script di bawah ini.
+
 ## :card_index_dividers: **MODUL 3 : HIDRODINAMIKA 1 DIMENSI**
 
 ✰ Hidrodinamika adalah cabang ilmu yang berhubungan dengan gerak Liquid atau lebih dikhususkan pada gerak air.
