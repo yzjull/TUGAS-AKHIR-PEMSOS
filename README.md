@@ -43,8 +43,13 @@ u(𝑥,t).
 ### :label: Langkah Pengerjaan Script Adveksi-Difusi 2 Dimensi
   ***
 * Seperti yang telah dijelaskan di pendahuluan, pada modul 2 ini kita perlu menggunakan library berupa matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
-* 
-Perlu diketahui dengan jelas parameter parameter dasar yang digunakan untuk memodelkan Adveksi-difusi 2 dimensi, yang mana didalam script ini digunakan beberapa parameter berikut 
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+import sys
+```
+
+* Perlu diketahui dengan jelas parameter parameter dasar yang digunakan untuk memodelkan adveksi-difusi 2 dimensi, yang mana didalam script ini digunakan beberapa parameter berikut 
 #C = kecepatan aliran
 #Q = kriteria kestabilan
 #Dt = perubahan waktu
