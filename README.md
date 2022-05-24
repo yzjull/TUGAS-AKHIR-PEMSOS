@@ -141,7 +141,7 @@ for i in range(1, 16):
     ax0.legend()
 
     ax0.set(xlabel='Waktu', ylabel='Kecepatan Arus',
-            title=''' Muhammad Aulia Ababil_26050120140112_Oseanografi B
+            title=''' Kelompok 8 Pemodelan Oseanografi 2022
             Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu''')
     ax0.grid()
 
@@ -152,7 +152,7 @@ for i in range(1, 16):
     ax1.legend()
 
     ax1.set(xlabel='Waktu', ylabel='Elevasi Muka Air',
-            title=''' Muhammad Aulia Ababil_26050120140112_Oseanografi B
+            title=''' Kelompok 8 Pemodelan Oseanografi 2022
             Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di Sepanjang Waktu''')
     ax1.grid()
 
@@ -163,7 +163,7 @@ for i in range(1, 16):
     ax2.legend()
 
     ax2.set(xlabel='Grid', ylabel='Kecepatan Arus',
-            title=''' Muhammad Aulia Ababil_26050120140112_Oseanografi B
+            title=''' Kelompok 8 Pemodelan Oseanografi 2022
             Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid''')
     ax2.grid()
 
@@ -173,7 +173,7 @@ for i in range(1, 16):
     line, = ax3.plot(hasilz_np[i-1], c=col3, label=f't={i}')
     ax3.legend()
     ax3.set(xlabel='Grid', ylabel='Elevasi Muka Air',
-            title=''' Muhammad Aulia Ababil_26050120140112_Oseanografi B
+            title=''' Kelompok 8 Pemodelan Oseanografi 2022
             Perubahan Elevasi Permukaan Air Dalam Waktu Tertentu di Sepanjang Grid''')
     ax3.grid()
 
@@ -186,6 +186,20 @@ plt.show()
 ```
 
 * Selanjutnya kita hanya perlu melakukan running dari script tersebut, kemudian simpan hasil grafik yang berhasil didapatkan.
+
+
+
+  ### :label: Hasil dan pembahasan
+  ***
+* Hasil dari running script yang telah dilakukan akan berupa 4 grafik pada gambar dibawah ini.
+
+![Figure_1](https://user-images.githubusercontent.com/105930996/169948568-537c1352-c104-4289-88a1-fec459410fc5.png)
+
+![Figure_2](https://user-images.githubusercontent.com/105930996/169948589-9870d51d-e6e9-4be9-8eff-b757b6cadef9.png)
+
+![Figure_3](https://user-images.githubusercontent.com/105930996/169948610-9ff821d1-2a35-4a66-b9f5-62d0992614b0.png)
+
+![Figure_4](https://user-images.githubusercontent.com/105930996/169948629-0f92b34c-8739-4c07-942b-0a69d8eb2c19.png)
 
 
 
