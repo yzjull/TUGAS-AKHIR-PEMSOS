@@ -72,13 +72,59 @@ Fenomena pasang dan surut, membangkitkan arus pasang dan surut, kemudian membawa
   ### :label: Langkah Pengerjaan Script Hidrodinamika 1 Dimensi
   ***
 * Sama seperti modul sebelumnya, pada modul 3 ini kita menggunakan dua library utama juga, matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
-import sys
 ```
 
-*
+* Selanjutnya kita perlu mengisi paramater apa saja yang memengaruhi model yang akan kita buat
+
+```python
+p = 7500 #Panjang Grid
+T = 2000 #Waktu Simulasi 
+A = 0.1 #Amplitudo
+D = 5 #Depth/kedalaman
+dt = 2
+dx = 100
+To = 500 #Periode
+
+g = 9.8
+pi = np.pi
+C = np.sqrt(g*D) #Kecepatan Arus
+s = 2*pi/To #Kecepatan Sudut Gelombang
+L = C*To #Panjang Gelombang
+k = 2*pi/L #Koefisien Panjang Gelombang
+Mmax = int(p//dx)
+Nmax = int(T//dt) 
+
+zo = [None for _ in range(Mmax)]
+uo = [None for _ in range(Mmax)]
+
+hasilu = [None for _ in range(Nmax)]
+hasilz = [None for _ in range(Nmax)]
+
+for i in range(1, Mmax+1):
+    zo[i-1] = A*np.cos(k*(i)*dx)
+    uo[i-1] = A*C*np.cos(k*((i)*dx+(0.5)*dx))/(D+zo[i-1])
+for i in range(1, Nmax+1):
+    zb = [None for _ in range(Mmax)]
+    ub = [None for _ in range(Mmax)]
+    zb[0] = A*np.cos(s*(i)*dt)
+    ub[-1] = A*C*np.cos(k*L-s*(i)*dt)/(D+zo[-1])
+    for j in range(1, Mmax):
+        ub[j-1] = uo[j-1]-g*(dt/dx)*(zo[j]-zo[j-1])
+    for k in range(2, Mmax+1):
+        zb[k-1] = zo[k-1]-(D+zo[k-1])*(dt/dx)*(ub[k-1]-ub[k-2])
+        hasilu[i-1] = ub
+        hasilz[i-1] = zb
+    for p in range(0, Mmax):
+        uo[p] = ub[p]
+        zo[p] = zb[p]
+        
+```
+
+* 
 
 
 ## :card_index_dividers: **MODUL 4** : **HIDRODINAMIKA 2 DiMENSI**
