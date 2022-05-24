@@ -42,7 +42,7 @@ u(𝑥,t).
 ✰ Dalam adveksi-difusi 2 dimensi ini, digunakan 2 library utama yaitu matplotlib dan numpy. Untuk lebih jelasnya, dapat dijelaskan menggunakan script di bawah ini.
 ### :label: Langkah Pengerjaan Script Adveksi-Difusi 2 Dimensi
   ***
-* Seperti yang telah dijelaskan di pendahuluan, pada modul 2 ini kita perlu menggunakan library berupa matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
+* Seperti yang telah dijelaskan di pendahuluan, pada modul 2 ini kita perlu menggunakan library berupa matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut, script seperti yang ada di bawah ini.
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
