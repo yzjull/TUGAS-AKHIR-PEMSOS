@@ -48,7 +48,8 @@ import sys
 ```
 
 ## :card_index_dividers: **MODUL 3 : HIDRODINAMIKA 1 DIMENSI**
-
+### :label: Pendahuluan 
+  ***
 ✰ Hidrodinamika adalah cabang ilmu yang berhubungan dengan gerak Liquid atau lebih dikhususkan pada gerak air.
 
 ✰ Model hidrodinamika : model yang dibangun dari adanya proses-proses yang mempengaruhi pergerakan massa air. Dengan adanya model hidrodinamika kita dapat mengsimulasikan elevasi muka air laut, dan arus yang dipengaruhi oleh beberapa parameter. 
@@ -67,6 +68,9 @@ Fenomena pasang dan surut, membangkitkan arus pasang dan surut, kemudian membawa
 
 
 ✰ Pada hasil script kita akan mendapatkan hasil berupa grafik Perubahan Kecepatan Arus dalam grid tertentu di sepanjang waktu; Perubahan elevasi permukaan air dalam grid tertentu di sepanjang waktu; Perubahan kecepatan arus dalam waktu tertentu di sepanjang grid; dan perubahan elevasi permukaan air dalam waktu tertentu di sepanjang grid.
+
+  ### :label: Langkah Pengerjaan Script Hidrodinamika 1 Dimensi
+  ***
 
 
 
