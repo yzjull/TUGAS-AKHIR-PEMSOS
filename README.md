@@ -195,11 +195,19 @@ plt.show()
 
 ![Figure_1](https://user-images.githubusercontent.com/105930996/169948568-537c1352-c104-4289-88a1-fec459410fc5.png)
 
+Grafik menunjukkan bahwa pada waktu antara 0 sampai rentang 200 kecepatan arus bergerak konstan. Hal ini dikarenakan pada rentang waktu tersebut menggunakan nilai parameter cenderung halus atau mempunyi nilai kecil. Nilai kecil dikarenakan asumsi yang kita masukkan. 
+
 ![Figure_2](https://user-images.githubusercontent.com/105930996/169948589-9870d51d-e6e9-4be9-8eff-b757b6cadef9.png)
+
+Grafik menunjukkan bahwa pada waktu antara 0 sampai rentang 200 elevasi muka air bergerak konstan. Hal ini dikarenakan pada rentang waktu tersebut menggunakan nilai parameter cenderung halus atau mempunyi nilai kecil. Nilai kecil dikarenakan asumsi yang kita masukkan. 
 
 ![Figure_3](https://user-images.githubusercontent.com/105930996/169948610-9ff821d1-2a35-4a66-b9f5-62d0992614b0.png)
 
+Pada grafik perubahan kecepatan arus dalam waktu tertentu di sepanjang grid juga terlihat memiliki nilai yang konstan. Namun, pada akhir grid memiliki nilai yang tidak beraturan karena kecepatan arus dalam waktu berpengaruh pada ruang.
+
 ![Figure_4](https://user-images.githubusercontent.com/105930996/169948629-0f92b34c-8739-4c07-942b-0a69d8eb2c19.png)
+
+Pada grafik perubahan elevasi permukaan air dalam waktu tertentu di sepanjang grid juga terlihat memiliki nilai yang konstan. Namun, pada akhir grid memiliki nilai yang tidak beraturan karena perubahan elevasi permukaan air dalam waktu berpengaruh pada ruang.
 
 
 
