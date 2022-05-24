@@ -185,6 +185,9 @@ for i in range(1, 16):
 plt.show()
 ```
 
+* Selanjutnya kita hanya perlu melakukan running dari script tersebut, kemudian simpan hasil grafik yang berhasil didapatkan.
+
+
 
 ## :card_index_dividers: **MODUL 4** : **HIDRODINAMIKA 2 DiMENSI**
   
