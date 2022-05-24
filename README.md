@@ -43,8 +43,7 @@ u(𝑥,t).
 ### :label: Langkah Pengerjaan Script Adveksi-Difusi 2 Dimensi
   ***
 * Seperti yang telah dijelaskan di pendahuluan, pada modul 2 ini kita perlu menggunakan library berupa matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
-
-```python
+* 
 Perlu diketahui dengan jelas parameter parameter dasar yang digunakan untuk memodelkan Adveksi-difusi 2 dimensi, yang mana didalam script ini digunakan beberapa parameter berikut 
 #C = kecepatan aliran
 #Q = kriteria kestabilan
@@ -54,31 +53,7 @@ Perlu diketahui dengan jelas parameter parameter dasar yang digunakan untuk memo
 #Px = jumlah polutan pada sumbu x
 #Py = jumlah polutan pada sumbu y
 #Ic = jumlah polutan total
-import matplotlib.pyplot as plt
-import numpy as np
-import sys
-
-def percentage(part, whole):
-    percentage = 100 * float(part)/float(whole)
-    return str(round(percentage,2)) + "x"
-
-#Masukan Parameter Awal
-C = 1.10
-ad = 1.10
-
-#Arah Arus
-theta = 10
-#theta = 70
-#theta = 143
-#theta = 325
-
-#Parameter Lanjutan
-q = 0.95 
-x = 500 
-y = 500 
-dt = 0.5 
-dx = 5 
-dy = 5 
+```python
 
 #Lama Simulasi
 Tend = 101
@@ -114,7 +89,11 @@ if cfl >= q:
     print('CFL Violated, please use dt :'+str(round(dt_count,4)))
     sys.exit ()
 #%%
+```
 
+Setelah semua parameter dihitung didalam script, dilakukan visualisasi hasil, dengan scipt sebagai berikut 
+
+```
 #pembuatan grid 
 x_grid = np.linspace(0-dx, x+dx, Nx+2) #ghostnode boundary
 y_grid = np.linspace(0-dx, y+dy, Ny+2) #ghostnode boundary
@@ -143,7 +122,11 @@ for n in range (0, Nt):
     F[n+1,Ny+1,:] = 0 #bc atas
     F[n+1,:,Nx+1] = 0 #bc kanan
 #%%
-
+```
+Kriteria kestabilan = CFL
+Adapun rentangnya adalah 0-1. Semakin mendekati 1 maka akan semakin bagus nilainya. Tapi kalau lewat dari 1 maka hasilnya error
+Dan output dari hasil visualisasi ini dibentuk dalam bentuk gambar dengan script sebagai berikut:
+```
     #Output Gambar
     plt.clf()
     plt.pcolor(x_mesh, y_mesh, F[n+1, :, :], cmap = 'jet',shading='auto',edgecolor='k')
