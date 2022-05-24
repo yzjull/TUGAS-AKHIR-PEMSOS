@@ -71,8 +71,14 @@ Fenomena pasang dan surut, membangkitkan arus pasang dan surut, kemudian membawa
 
   ### :label: Langkah Pengerjaan Script Hidrodinamika 1 Dimensi
   ***
+* Sama seperti modul sebelumnya, pada modul 3 ini kita menggunakan dua library utama juga, matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+import sys
+```
 
-
+*
 
 
 ## :card_index_dividers: **MODUL 4** : **HIDRODINAMIKA 2 DiMENSI**
