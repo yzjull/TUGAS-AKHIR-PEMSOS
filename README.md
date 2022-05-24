@@ -42,13 +42,9 @@ u(𝑥,t).
 ✰ Dalam adveksi-difusi 2 dimensi ini, digunakan 2 library utama yaitu matplotlib dan numpy. Untuk lebih jelasnya, dapat dijelaskan menggunakan script di bawah ini.
 ### :label: Langkah Pengerjaan Script Adveksi-Difusi 2 Dimensi
   ***
-* Seperti yang telah dijelaskan di pendahuluan, pada modul 2 ini kita perlu menggunakan library berupa matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut, script seperti yang ada di bawah ini.
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-import sys
-```
-* Perlu diketahui dengan jelas parameter parameter dasar yang digunakan untuk memodelkan Adveksi-difusi 2 dimensi, yang mana didalam script ini digunakan beberapa parameter berikut 
+* Seperti yang telah dijelaskan di pendahuluan, pada modul 2 ini kita perlu menggunakan library berupa matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
+* 
+Perlu diketahui dengan jelas parameter parameter dasar yang digunakan untuk memodelkan Adveksi-difusi 2 dimensi, yang mana didalam script ini digunakan beberapa parameter berikut 
 #C = kecepatan aliran
 #Q = kriteria kestabilan
 #Dt = perubahan waktu
@@ -153,6 +149,31 @@ Dan output dari hasil visualisasi ini dibentuk dalam bentuk gambar dengan script
 ```
 Dari seluruh rangkaian akan didapatkan hasil sebagai beikut
 
+ISI DISINI YA SEKAR 
+
+Berdasarkan permodelan diatas. terlihat bahwa distribusiu polutan diperairan beroperasi sesuai nilai C (kecepatan aliran) dan Ad(Koefisien difusi). Semakin besar koefisien difusi maka semakin cepat proses difusi terjadi. Pada saat yang sama, arah difusi kontaminan sangat ditentukan oleh nilai theta (arah pergerakan arus) yang sesuai untuk pemodelan. Menurut Sampera dkk. (2018), pergerakan dan arah distribusi zat dalam air sangat dipengaruhi oleh konsentrasi zat itu sendiri dan kecepatan aliran air di wilayah tersebut. Di wilayah pesisir, konsentrasi pencemar akan menunjukkan nilai tertingginya di sekitar zona pasang surut. Hal konsentrasi pencemar akan menunjukkan nilai tertingginya di sekitar zona pasang surut. Hal ini dikarenakan banyaknya air laut yang mengalir dari laut ke daerah tersebut karena faktor pasang surut.
+
+Menurut Sampera et al. (2018), permodelan adveksi difusi dapat digunakan untuk 
+mengetahui sebaran dan pegerakan polutan di perairan, untuk menyelesaikan kasus 
+adveksidifusi 2D pada sebaran konsentrasi polutan dapat digunakan metode analitik sebagai 
+pembanding untuk menambah validitas data yang dihasilkan, tidak hanya itu persamaan 2 
+dimensi adveksi difusi dapat juga diaplikasikan sebagai tools untuk mengetahui distribusi oil 
+spill dilaut.
+Dalam pengaplikasian difusi adveksi 2 dimensi ada beberapa metode yang dapat 
+dilakukan antara lain adalah Metode beda hingga yang merupakan salah satu metode yang 
+dapat diterapkan untuk kasus fenomena transpor di perairan dangkal dan aliran air tanah. 
+Metode ini biasanya dinyatakan dengan persamaan adveksi difusi karena metode ini dapat 
+memberikan hasil pendekatan yang cukup akurat . Penelitian tentang penyelesaian persamaan 
+adveksi difusi 2 dimensi untuk model sebaran polutan pernah dilakukan oleh Alman 
+menggunakan metode beda hingga Dufort-Frankle dengan asumsi koefisien difusi dan 
+kecepatan aliran yang konstan. Dalam penelitiannya Alman menjelaskan bahwa metode beda 
+hingga yang digunakan (Metode Beda Hingga DufortFrankle) dapat dipakai untuk 
+menyelesaikan persoalan angkutan polutan dalam aliran air yang mengalir dalam aliran 
+terbuka. Persamaan tersebut digambarkan dalam sebuah persamaan differensial parsial yang 
+disebut sebagai persamaan adveksi-difusi 2D . Selain itu, berdasarkan metode analitik yang 
+dilakukan oleh Aminuddin menjelaskan bahwa simulasi model analitik 2D cocok untuk 
+sumber polutan sesaat maupun kontinu sehingga menunjukkan hasil yang sesuai dengan yang 
+diharapkan
 ## :card_index_dividers: **MODUL 3 : HIDRODINAMIKA 1 DIMENSI**
 ### :label: Pendahuluan 
   ***
