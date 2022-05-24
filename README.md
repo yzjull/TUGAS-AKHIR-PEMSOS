@@ -148,6 +148,7 @@ Dan output dari hasil visualisasi ini dibentuk dalam bentuk gambar dengan script
     print('Nilai CFL:' +str(cfl) + 'dengan arah: ' +str(theta))
 ```
 Dari seluruh rangkaian akan didapatkan hasil sebagai beikut
+
 ## :card_index_dividers: **MODUL 3 : HIDRODINAMIKA 1 DIMENSI**
 ### :label: Pendahuluan 
   ***
