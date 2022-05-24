@@ -41,6 +41,7 @@ u(𝑥,t).
 ### :label: Langkah Pengerjaan Script Adveksi-Difusi 2 Dimensi
   ***
 * Seperti yang telah dijelaskan di pendahuluan, pada modul 2 ini kita perlu menggunakan library berupa matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running script yang telah dilakukan. sedangkan numpy berfungsi untuk melakukan perhitungan data yang akan dianalisis, sehingga langkah awal dalam pemodelan ini perlu dilakukan import kedua library tersebut. script tersebut seperti yang ada dibawah ini.
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -124,7 +125,65 @@ for i in range(1, Nmax+1):
         
 ```
 
-* 
+* Langkah dalam penulisan script ini kita perlu melakukan ploting untuk kemudian dapat ditampilkan dalam bentuk grafik. dalam hal ini kita juga dapat menentukan size yang akan digunakan dan jumlah grafik yang akan kita buat. Disini kita menggunakan 4 grafik dimana ax0 merupakan Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang waktu, ax1 merupakan Perubahan elevasi muka air dalamm grid tertentu di sepanjang waktu, ax2 merupakan Perubahankecepatan arus dalam grid tertentu di sepanjang grid, dan ax 3 merupakan perubahan elevasi permukaan air dalam grid waktu tertetu di sepanjang grid
+
+```python
+def rand_col_hex_string():
+    return f'#{format(np.random.randint(0,16777215), "#08x")[2:]}'
+
+hasilu_np = np.array(hasilu)
+hasilz_np = np.array(hasilz)
+
+fig0, ax0 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+    col0 = rand_col_hex_string()
+    line, = ax0.plot(hasilu_np[:,i-1], c=col0, label=f'n={i}')
+    ax0.legend()
+
+    ax0.set(xlabel='Waktu', ylabel='Kecepatan Arus',
+            title=''' Muhammad Aulia Ababil_26050120140112_Oseanografi B
+            Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu''')
+    ax0.grid()
+
+fig1, ax1 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+    col1 = rand_col_hex_string()
+    line, = ax1.plot(hasilz_np[:,i-1], c=col1, label=f'n={i}')
+    ax1.legend()
+
+    ax1.set(xlabel='Waktu', ylabel='Elevasi Muka Air',
+            title=''' Muhammad Aulia Ababil_26050120140112_Oseanografi B
+            Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di Sepanjang Waktu''')
+    ax1.grid()
+
+fig2, ax2 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+    col2 = rand_col_hex_string()
+    line, = ax2.plot(hasilu_np[i-1], c=col2, label=f't={i}')
+    ax2.legend()
+
+    ax2.set(xlabel='Grid', ylabel='Kecepatan Arus',
+            title=''' Muhammad Aulia Ababil_26050120140112_Oseanografi B
+            Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid''')
+    ax2.grid()
+
+fig3, ax3 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+    col3 = rand_col_hex_string()
+    line, = ax3.plot(hasilz_np[i-1], c=col3, label=f't={i}')
+    ax3.legend()
+    ax3.set(xlabel='Grid', ylabel='Elevasi Muka Air',
+            title=''' Muhammad Aulia Ababil_26050120140112_Oseanografi B
+            Perubahan Elevasi Permukaan Air Dalam Waktu Tertentu di Sepanjang Grid''')
+    ax3.grid()
+
+```
+
+* Terakhir kita perlu memberikan perintah untuk menampilkan hasil plotting grafik tersebut
+
+```python
+plt.show()
+```
 
 
 ## :card_index_dividers: **MODUL 4** : **HIDRODINAMIKA 2 DiMENSI**
