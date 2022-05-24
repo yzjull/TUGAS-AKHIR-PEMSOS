@@ -423,4 +423,12 @@ plt.show()
 
 ![hasil](https://user-images.githubusercontent.com/105930126/169843509-04ea5ab9-e1b2-451d-ad5a-ca0438dd42e0.jpg)
 
-      
+# PENUTUP
+# UCAPAN TERIMAKASIH
+Demikianlah *repository* dari tugas akhir Praktikum Pemodelan Oseanografi 2002. Kami selaku penulis *repository* mengucapkan permohonan maaf yang sebesar-besarnya apabila dalam penulisan *repository* ini masih banyak kekurangan. Kami juga ingin mengucapkan terima kasih kepada
+1. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu pada matakuliah Pemodelan Oseanografi 
+2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
+3. Dr. Elis Indrayanti, S.T., selaku dosen pengampu matakuliah Pemodelan Oseanografi
+4. Rikha Widhiaratih, S.Si., M.Si selaku dosen pengampu matakuliah Pemodelan Oseanografi
+5. Seluruh Asisten Praktikum Pemodelan Oseanografi yang telah membimbing praktikan selama praktikum Pemodelan Oseanografi
+6. Teman-teman Oseanografi 2020 yang telah ikut serta membantu atas tersusunnya *repository* ini.
