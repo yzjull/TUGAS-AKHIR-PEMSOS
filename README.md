@@ -2,11 +2,13 @@
 ____
 HALOOO...HALLOOOOO 👋:wave::wave:...
 
-Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Oseanografi 2022. Dalam repositori ini memuat terkait dengan pembahasan modul 1 hingga modul 4 beserta script pemodelan yang digunakan dalam praktikum
+Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Oseanografi 2022. Dalam repositori ini memuat terkait dengan pembahasan modul 1 hingga modul 4, Dengan topik bahasan Adveksi-Difusi 1 dimensi & 2 dimensi dan Permodelan Hidrodinamika 1 dimensi & 2 dimensi Dimulai dari Teori dasar, tools serta script yang digunakan, Serta Hasil dan analisis yang dihasilkan.
+
+Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform untuk menggunakan bahasa pemoggraman  ini dapat menyesuaikan seperti Jupyter notebook, Visual studio code dan lain lain.
 
 # Penulis (Kelompok 8)
 1. Adnan Izzul Muttaqin    26050120130102 OSE A
-2. Dika Surya Pratama
+2. Dika Surya Pratama      26050120120011 OSE A
 3. Anindita Rahma Candrasekar 26050120130111 OSE A
 4. Eldeenio Akeyla Ibrahim
 5. Zalfa Karima
