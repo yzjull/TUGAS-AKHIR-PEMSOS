@@ -136,7 +136,7 @@ Dan output dari hasil visualisasi ini dibentuk dalam bentuk gambar dengan script
     cbar = plt.colorbar(orientation='vertical',shrink=0.95,extend='both')
     cbar.set_label(label='Concentration',size = 8)
     #plt.clim(0,100)
-    plt.title('Dika surya pratama_26050120120011 \n t='+str(round(dt*(n+1),3))+ ', Initial condition='+str(Ic),fontsize=10)
+    plt.title('Kelompok 8 \n t='+str(round(dt*(n+1),3))+ ', Initial condition='+str(Ic),fontsize=10)
     plt.xlabel('x_grid',fontsize=9)
     plt.ylabel('y_grid',fontsize=9)
     plt.axis([0, x, 0, y])
@@ -147,7 +147,7 @@ Dan output dari hasil visualisasi ini dibentuk dalam bentuk gambar dengan script
     print('running timestep ke:' +str(n+1) + ' dari:' +str(Nt) + '('+ percentage(n+1,Nt)+')')
     print('Nilai CFL:' +str(cfl) + 'dengan arah: ' +str(theta))
 ```
-
+Dari seluruh rangkaian akan didapatkan hasil sebagai beikut
 ## :card_index_dividers: **MODUL 3 : HIDRODINAMIKA 1 DIMENSI**
 ### :label: Pendahuluan 
   ***
