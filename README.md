@@ -69,7 +69,7 @@ Terdapat beberapa metode untuk menyelesaikan persamaan diatas, diantaranya sebag
 
 ✰ Contoh Persamaan :
 
-![image](https://user-images.githubusercontent.com/103433885/170176794-9b5b55a9-2c20-4441-ac88-8ea28b6da2cc.png)
+![difusi](https://user-images.githubusercontent.com/103433885/170177905-aa370c35-644d-4bb5-b477-b18888cc75e2.png)
 
 ✰ Diskritisasi : proses kuantisasi sifat-sifat kontinu. Dalam metode FTCS dalam adveksi, diskritisasi dari rumus awal dapat dijabarkan sebagai berikut.
 
