@@ -109,7 +109,7 @@ if cfl >= q:
 #%%
 ```
 
-Setelah semua parameter dihitung didalam script, dilakukan visualisasi hasil, dengan script sebagai berikut 
+* Setelah semua parameter dihitung didalam script, dilakukan visualisasi hasil, dengan script sebagai berikut 
 
 ```
 #pembuatan grid 
@@ -141,7 +141,7 @@ for n in range (0, Nt):
     F[n+1,:,Nx+1] = 0 #bc kanan
 #%%
 ```
-Kriteria kestabilan = CFL
+* Kriteria kestabilan = CFL
 Adapun rentangnya adalah 0-1. Semakin mendekati 1 maka akan semakin bagus nilainya. Tapi kalau lewat dari 1 maka hasilnya error
 Dan output dari hasil visualisasi ini dibentuk dalam bentuk gambar dengan script sebagai berikut:
 ```
@@ -165,33 +165,17 @@ Dan output dari hasil visualisasi ini dibentuk dalam bentuk gambar dengan script
     print('running timestep ke:' +str(n+1) + ' dari:' +str(Nt) + '('+ percentage(n+1,Nt)+')')
     print('Nilai CFL:' +str(cfl) + 'dengan arah: ' +str(theta))
 ```
-Dari seluruh rangkaian akan didapatkan hasil sebagai beikut
+* Dari seluruh rangkaian akan didapatkan hasil sebagai berikut
 
 https://user-images.githubusercontent.com/105938297/170161120-c0753853-4e28-430e-85c2-d0a90de82633.mp4
 
-Berdasarkan permodelan diatas. terlihat bahwa distribusiu polutan diperairan beroperasi sesuai nilai C (kecepatan aliran) dan Ad(Koefisien difusi). Semakin besar koefisien difusi maka semakin cepat proses difusi terjadi. Pada saat yang sama, arah difusi kontaminan sangat ditentukan oleh nilai theta (arah pergerakan arus) yang sesuai untuk pemodelan. Menurut Sampera dkk. (2018), pergerakan dan arah distribusi zat dalam air sangat dipengaruhi oleh konsentrasi zat itu sendiri dan kecepatan aliran air di wilayah tersebut. Di wilayah pesisir, konsentrasi pencemar akan menunjukkan nilai tertingginya di sekitar zona pasang surut. Hal konsentrasi pencemar akan menunjukkan nilai tertingginya di sekitar zona pasang surut. Hal ini dikarenakan banyaknya air laut yang mengalir dari laut ke daerah tersebut karena faktor pasang surut.
+### :label: Hasil dan Pembahasan
+  ***
+Berdasarkan permodelan diatas. terlihat bahwa distribusi polutan diperairan beroperasi sesuai nilai C (kecepatan aliran) dan Ad(Koefisien difusi). Semakin besar koefisien difusi maka semakin cepat proses difusi terjadi. Pada saat yang sama, arah difusi kontaminan sangat ditentukan oleh nilai theta (arah pergerakan arus) yang sesuai untuk pemodelan. Menurut Sampera et al. (2018), pergerakan dan arah distribusi zat dalam air sangat dipengaruhi oleh konsentrasi zat itu sendiri dan kecepatan aliran air di wilayah tersebut. Di wilayah pesisir, konsentrasi pencemar akan menunjukkan nilai tertingginya di sekitar zona pasang surut. Hal konsentrasi pencemar akan menunjukkan nilai tertingginya di sekitar zona pasang surut. Hal ini dikarenakan banyaknya air laut yang mengalir dari laut ke daerah tersebut karena faktor pasang surut.
 
-Menurut Sampera et al. (2018), permodelan adveksi difusi dapat digunakan untuk 
-mengetahui sebaran dan pegerakan polutan di perairan, untuk menyelesaikan kasus 
-adveksidifusi 2D pada sebaran konsentrasi polutan dapat digunakan metode analitik sebagai 
-pembanding untuk menambah validitas data yang dihasilkan, tidak hanya itu persamaan 2 
-dimensi adveksi difusi dapat juga diaplikasikan sebagai tools untuk mengetahui distribusi oil 
-spill dilaut.
-Dalam pengaplikasian difusi adveksi 2 dimensi ada beberapa metode yang dapat 
-dilakukan antara lain adalah Metode beda hingga yang merupakan salah satu metode yang 
-dapat diterapkan untuk kasus fenomena transpor di perairan dangkal dan aliran air tanah. 
-Metode ini biasanya dinyatakan dengan persamaan adveksi difusi karena metode ini dapat 
-memberikan hasil pendekatan yang cukup akurat . Penelitian tentang penyelesaian persamaan 
-adveksi difusi 2 dimensi untuk model sebaran polutan pernah dilakukan oleh Alman 
-menggunakan metode beda hingga Dufort-Frankle dengan asumsi koefisien difusi dan 
-kecepatan aliran yang konstan. Dalam penelitiannya Alman menjelaskan bahwa metode beda 
-hingga yang digunakan (Metode Beda Hingga DufortFrankle) dapat dipakai untuk 
-menyelesaikan persoalan angkutan polutan dalam aliran air yang mengalir dalam aliran 
-terbuka. Persamaan tersebut digambarkan dalam sebuah persamaan differensial parsial yang 
-disebut sebagai persamaan adveksi-difusi 2D . Selain itu, berdasarkan metode analitik yang 
-dilakukan oleh Aminuddin menjelaskan bahwa simulasi model analitik 2D cocok untuk 
-sumber polutan sesaat maupun kontinu sehingga menunjukkan hasil yang sesuai dengan yang 
-diharapkan
+Menurut Sampera et al. (2018), permodelan adveksi difusi dapat digunakan untuk mengetahui sebaran dan pegerakan polutan di perairan, untuk menyelesaikan kasus adveksi-difusi 2D pada sebaran konsentrasi polutan dapat digunakan metode analitik sebagai pembanding untuk menambah validitas data yang dihasilkan, tidak hanya itu persamaan 2 dimensi adveksi difusi dapat juga diaplikasikan sebagai tools untuk mengetahui distribusi oil spill dilaut.
+
+Dalam pengaplikasian difusi adveksi 2 dimensi, ada beberapa metode yang dapat dilakukan antara lain metode beda hingga yang merupakan salah satu metode yang dapat diterapkan untuk kasus fenomena transpor di perairan dangkal dan aliran air tanah. Metode ini biasanya dinyatakan dengan persamaan adveksi difusi karena metode ini dapat memberikan hasil pendekatan yang cukup akurat . Penelitian tentang penyelesaian persamaan adveksi difusi 2 dimensi untuk model sebaran polutan pernah dilakukan oleh Alman menggunakan metode beda hingga Dufort-Frankle dengan asumsi koefisien difusi dan kecepatan aliran yang konstan. Dalam penelitiannya Alman menjelaskan bahwa metode beda hingga yang digunakan (Metode Beda Hingga DufortFrankle) dapat dipakai untuk menyelesaikan persoalan angkutan polutan dalam aliran air yang mengalir dalam aliran terbuka. Persamaan tersebut digambarkan dalam sebuah persamaan differensial parsial yang disebut sebagai persamaan adveksi-difusi 2D . Selain itu, berdasarkan metode analitik yang dilakukan oleh Aminuddin menjelaskan bahwa simulasi model analitik 2D cocok untuk sumber polutan sesaat maupun kontinu sehingga menunjukkan hasil yang sesuai dari yang diharapkan.
 ## :card_index_dividers: **MODUL 3 : HIDRODINAMIKA 1 DIMENSI**
 ### :label: Pendahuluan 
   ***
