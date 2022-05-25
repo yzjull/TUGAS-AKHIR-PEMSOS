@@ -48,29 +48,29 @@ Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform 
 ✰ Tipe-Tipe Persamaan : Eksplisit dan Implisit.
 
 ✰ Contoh Persamaan :
-![image](https://user-images.githubusercontent.com/103433885/170167934-a0fdaa56-a10e-4edf-bc1d-75ea891158ba.png)
 
+![image](https://user-images.githubusercontent.com/103433885/170168172-e8af23a7-afd1-4305-a074-293766c9bb9d.png)
 
 Terdapat beberapa metode untuk menyelesaikan persamaan diatas, diantaranya sebagai berikut.
 
 ✰ Metode FTCS : Metode ini merupakan gabungan dari selisih maju terhadap waktu dan selisih pusat terhadap ruang.
-![image](https://user-images.githubusercontent.com/103433885/170165238-df23c7d5-1301-4b98-9fdd-e75901fc9c0a.png)
+
 
 ✰ Metode Leapfrog : Di dalam metode beda hingga ini, terdapat suatu skema yang didapatkan dari turunan deret taylor dan tergolong ke dalam skema yang kosisten (apabila nilai C kurang dari sama dengan 1)
-![image](https://user-images.githubusercontent.com/103433885/170165444-cd3ff068-65cc-4b06-b508-5dc907b4f049.png)
+
 
 ✰ Metode Upstream : Metode ini meruoakan skema yang digunakan untuk melengkapi ketidak sempurnaan dari metode sebelumnya, yaitu leapfrog dengan menggunakan pendekatan beda maju untuk turunan waktu.  Sedangkan, untuk turunqn terhadap ruang dilakukan dengan melihat arah u.
-![image](https://user-images.githubusercontent.com/103433885/170165801-dcf6d76e-519a-48ed-904c-38bc4de3abae.png)
+
 
 ✰ Pada penjelasan sebelumnya, telah dipaparkan definisi mengenai adveksi. Berikutnya mengenai difusi yang merupakan proses dimana suatu zal bergerak dari konsentrasi yang tinggi menuju rendah.
 
 ✰ Contoh Pengaplikasian Difusi dalam Bidang Oseanografi : Oil Spill.
 
 ✰ Contoh Persamaan :
-![image](https://user-images.githubusercontent.com/103433885/170167112-32a2fdfb-4c46-4ccb-8253-55feab08b40d.png)
+
 
 ✰ Diskritisasi : proses kuantisasi sifat-sifat kontinu. Dalam metode FTCS dalam adveksi, diskritisasi dari rumus awal dapat dijabarkan sebagai berikut.
-![image](https://user-images.githubusercontent.com/103433885/170167535-9bc351a8-8385-4607-bcef-777a232479ed.png)
+
 
 ### :label: Kesimpulan
   ***
