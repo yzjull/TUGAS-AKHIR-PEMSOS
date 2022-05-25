@@ -55,12 +55,13 @@ Terdapat beberapa metode untuk menyelesaikan persamaan diatas, diantaranya sebag
 
 ✰ Metode FTCS : Metode ini merupakan gabungan dari selisih maju terhadap waktu dan selisih pusat terhadap ruang.
 
+![ftcs 2](https://user-images.githubusercontent.com/103433885/170177183-ce09cf90-0a58-4176-af99-694d0b469413.png)
 
 ✰ Metode Leapfrog : Di dalam metode beda hingga ini, terdapat suatu skema yang didapatkan dari turunan deret taylor dan tergolong ke dalam skema yang kosisten (apabila nilai C kurang dari sama dengan 1)
 
+![leapfrog](https://user-images.githubusercontent.com/103433885/170177588-7f7f62ca-ebae-4631-a7e8-b898d1400ff9.png)
 
 ✰ Metode Upstream : Metode ini meruoakan skema yang digunakan untuk melengkapi ketidak sempurnaan dari metode sebelumnya, yaitu leapfrog dengan menggunakan pendekatan beda maju untuk turunan waktu.  Sedangkan, untuk turunqn terhadap ruang dilakukan dengan melihat arah u.
-
 
 ✰ Pada penjelasan sebelumnya, telah dipaparkan definisi mengenai adveksi. Berikutnya mengenai difusi yang merupakan proses dimana suatu zal bergerak dari konsentrasi yang tinggi menuju rendah.
 
@@ -68,9 +69,11 @@ Terdapat beberapa metode untuk menyelesaikan persamaan diatas, diantaranya sebag
 
 ✰ Contoh Persamaan :
 
+![image](https://user-images.githubusercontent.com/103433885/170176794-9b5b55a9-2c20-4441-ac88-8ea28b6da2cc.png)
 
 ✰ Diskritisasi : proses kuantisasi sifat-sifat kontinu. Dalam metode FTCS dalam adveksi, diskritisasi dari rumus awal dapat dijabarkan sebagai berikut.
 
+![diskritisasi](https://user-images.githubusercontent.com/103433885/170177364-759fd0f4-f648-468e-af0e-a808fa38c655.png)
 
 ### :label: Kesimpulan
   ***
