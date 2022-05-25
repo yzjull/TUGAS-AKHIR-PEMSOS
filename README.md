@@ -40,6 +40,12 @@ Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform 
   [Modul 4](#modul-4)
   
 ## 🗂️ **MODUL 1**
+### :label: Pendahuluan 
+  ***
+✰ Adveksi adalah mekanisme perpindahan massa dalam suatu materi, dari satu titik ke titik lainnya yang memiliki kaitan erat dengan fluida. Dalam pengaplikasian adveksi ini dapat dicontohkan berdasarkan Persamaan Gelombang Linear Orde-1 dan termasuk ke dalam persamaan diferensial hiperbolik yang dapat menggambarkan mekanisme transportasi suatu zat gas atau cair dengan arah tertentu.
+✰ Tipe-Tipe Persamaan terbagi menjadi dua bagian, yaitu : eksplisit dan implisit. Dimana, 
+✰
+
 ## :card_index_dividers: **MODUL 2 : ADVEKSI-DIFUSI 2 DIMENSI**
 
 ### :label: Pendahuluan 
