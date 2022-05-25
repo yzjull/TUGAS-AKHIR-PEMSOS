@@ -49,7 +49,7 @@ Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform 
 
 ✰ Contoh Persamaan :
 
-![ftcs](https://user-images.githubusercontent.com/103433885/170168399-92f818f3-3b51-4370-8102-0cf54c3d5325.png)
+![ftcs](https://user-images.githubusercontent.com/103433885/170168713-86d7b3db-9901-46dc-97ff-ca824b33976d.png)
 
 Terdapat beberapa metode untuk menyelesaikan persamaan diatas, diantaranya sebagai berikut.
 
