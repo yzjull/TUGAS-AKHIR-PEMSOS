@@ -2,9 +2,9 @@
 ____
 HALOOO...HALLOOOOO 👋:wave::wave:...
 
-Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Oseanografi 2022. Dalam repositori ini memuat pembahasan modul 1 hingga modul 4, dengan topik bahasan Adveksi-Difusi 1 dimensi & 2 dimensi dan Pemodelan Hidrodinamika 1 dimensi & 2 dimensi dimulai dari teori dasar, tools serta script yang digunakan, serta asil dan analisis yang dihasilkan.
+Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Oseanografi 2022. Dalam repositori ini memuat pembahasan modul 1 hingga modul 4, dengan topik bahasan Adveksi-Difusi 1 dimensi & 2 dimensi dan Pemodelan Hidrodinamika 1 dimensi & 2 dimensi dimulai dari teori dasar, tools serta script yang digunakan, serta hasil dan analisis yang dihasilkan.
 
-Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform untuk menggunakan bahasa pemoggraman  ini dapat menyesuaikan seperti Jupyter notebook, Visual studio code dan lain lain.
+Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform untuk menggunakan bahasa pemrograman ini dapat menyesuaikan seperti Jupyter notebook, Visual studio code dan lain lain.
 
 # Penulis (Kelompok 8)
 1. Adnan Izzul Muttaqin       26050120130102 OSE A
@@ -40,12 +40,6 @@ Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform 
   [Modul 4](#modul-4)
   
 ## 🗂️ **MODUL 1**
-### :label: Pendahuluan 
-  ***
-✰ Adveksi adalah mekanisme perpindahan massa dalam suatu materi, dari satu titik ke titik lainnya yang memiliki kaitan erat dengan fluida. Dalam pengaplikasian adveksi ini dapat dicontohkan berdasarkan Persamaan Gelombang Linear Orde-1 dan termasuk ke dalam persamaan diferensial hiperbolik yang dapat menggambarkan mekanisme transportasi suatu zat gas atau cair dengan arah tertentu.
-✰ Tipe-Tipe Persamaan terbagi menjadi dua bagian, yaitu : eksplisit dan implisit. Dimana, 
-✰
-
 ## :card_index_dividers: **MODUL 2 : ADVEKSI-DIFUSI 2 DIMENSI**
 
 ### :label: Pendahuluan 
