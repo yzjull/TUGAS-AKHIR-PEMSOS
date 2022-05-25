@@ -17,8 +17,17 @@ Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform 
 
 # **Cara Penggunaan Script Python💻**
 1. Script pyton dapat dibuka melalui folder pada repository ini, script python tersebut dapat dijalankan pada jupyter notebook, visual studio code, goodle colaboratory dan yang lainnya
+
+![Screenshot 2022-05-25 071353](https://user-images.githubusercontent.com/105930126/170152353-b93e86da-5f2e-40d3-a0c0-52f4ed7caa86.jpg)
+
 2. Folder script tersebut jika dibuka akan menampilkan keseluruhan script
-3. Script python tersebut bisa disalin untuk kemudian dapat digunakan untuk membantu dalam pemodelan oseanografi ini.
+
+![Screenshot 2022-05-25 071449](https://user-images.githubusercontent.com/105930126/170152410-440a7eb4-fe95-4bbd-9d0d-27074ea399cf.jpg)
+
+3. Script python tersebut bisa didownload untuk kemudian dapat digunakan untuk membantu dalam pemodelan oseanografi ini.
+
+![Screenshot 2022-05-25 071449](https://user-images.githubusercontent.com/105930126/170152468-a39279f4-043a-43bb-84bd-c3c1d538436a.jpg)
+
 4. selain melalui folder script bisa disalin melalui laman pada repository ini secara langsung.
 
 # **Metode Pengerjaan**
