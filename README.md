@@ -10,7 +10,7 @@ Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform 
 1. Adnan Izzul Muttaqin       26050120130102 OSE A
 2. Dika Surya Pratama         26050120120011 OSE A
 3. Anindita Rahma Candrasekar 26050120130111 OSE A
-4. Eldeenio Akeyla Ibrahim
+4. Eldeenio Akeyla Ibrahim    26050120130108 OSE B
 5. Zalfa Karima               26050120140040 OSE B
 6. Nadina Raisa               26050120140161 OSE B
 7. Muhammad Aulia Ababil      26050120140112 OSE B
@@ -465,6 +465,7 @@ plt.show()
 * Hasil dari running script tersebut berupa 3 grafik seperti pada gambar dibawah ini
 
 ![hasil](https://user-images.githubusercontent.com/105930126/169843509-04ea5ab9-e1b2-451d-ad5a-ca0438dd42e0.jpg)
+Grafik diatas menggunakan data dari stasiun 51003, stasiun ini terletak pada koordinat 40.764 N 137.377 W (40°45'52" N 137°22'37" W). Stasiun tersebut berada di daerah lepas pantai di Samudra Pasifik Utara di daerah diantara San Fransisco dan Portland. Daearah stasiun ini  terletak di daerah Samudra pasifik utara yang terdapat arus Passifik Utara. Arus tersebut merupakan arus air hangat lambat yang mengalir dari barat ke timur antara 30 dan 50 derajat utara di Samudera Pasifik. Dari hasil pemodelan yang telah dibuat didapatkan hasil berupa 3 grafik mengenai pertama yaitu pressure, wind speed, dan water temperature. Namun pada pemodelan yang telah dilakukan praktikan pada stasiun 46006 pada hasil informasi grafik mengenai water temperature tidak muncul atau tidak terdapat grafik sama sekali, kemungkinan besar pada rentang waktu yang ditentukan tersebut mungkin pada stasiun tersebut memang tidak menyediakan data mengenai informasi ini. Kemudian untuk memastikan tidak adanya kesalahan pada script pemodelan yang dibuat, praktikan mencoba untuk mengganti atau mencoba untuk melihat pada stasiun yang lainnya. Pada praktikum ini praktikan mencoba menggunakan stasiun yang sama dengan yang panduan pengerjaan yang telah diberikan asisten praktikum dan hasilnya sama seperti pada panduan. Sehingga dapat dipastikan kosongnya grafik pada water temperature bukan karena adanya kesalahan pada script. Kemudian dari hasil pemodelan yang telah dibuat dapat diketahui bahwa wind speed dan tekanan udara nya sangat fluktuatif. Dari hasil model dan data dari website memiliki fluktuasi yang hamper mirip, tetapi pada hasil grafik dari website hanya menampilkan rentang waktu yang pendek tidak sebanyak 45 hari. Stasiun ini juga cenderung kecil dibandingkan dengan stasiun yang lainnya dan buoy ini terletak di laut lepas samudera sehingga rentan terhadap fenomena-fenomena yang terjadi di lautan lepas seperti badai laut dan sebagainya sehingga dapat memicu dan mempengaruhi nilai informasi yang dihasilkan. Seperti pada hasil pemodelan terlihat data grafik wind speed yang terlihat cukup berantakan dan berhimpitan di rentang 22 maret- 1 april 2022. Kemudian berikut ini ditampilkan grafik dari website NDBC pada stasiun 51003.
 
 # PENUTUP
 ## UCAPAN TERIMAKASIH
