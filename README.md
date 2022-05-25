@@ -15,7 +15,11 @@ Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform 
 6. Nadina Raisa               26050120140161 OSE B
 7. Muhammad Aulia Ababil      26050120140112 OSE B
 
-# **Cara Penggunaan Executable File (.exe)💻**
+# **Cara Penggunaan Script Python💻**
+1. Script pyton dapat dibuka melalui folder pada repository ini, script python tersebut dapat dijalankan pada jupyter notebook, visual studio code, goodle colaboratory dan yang lainnya
+2. Folder script tersebut jika dibuka akan menampilkan keseluruhan script
+3. Script python tersebut bisa disalin untuk kemudian dapat digunakan untuk membantu dalam pemodelan oseanografi ini.
+4. selain melalui folder script bisa disalin melalui laman pada repository ini secara langsung.
 
 # **Metode Pengerjaan**
   [Modul 1](#modul-1)
