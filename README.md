@@ -167,7 +167,7 @@ Dan output dari hasil visualisasi ini dibentuk dalam bentuk gambar dengan script
 ```
 Dari seluruh rangkaian akan didapatkan hasil sebagai beikut
 
-https://user-images.githubusercontent.com/105938297/170160565-52c41b75-5eb6-465d-a63a-1ee317a077fb.mp4 
+https://user-images.githubusercontent.com/105938297/170161120-c0753853-4e28-430e-85c2-d0a90de82633.mp4
 
 Berdasarkan permodelan diatas. terlihat bahwa distribusiu polutan diperairan beroperasi sesuai nilai C (kecepatan aliran) dan Ad(Koefisien difusi). Semakin besar koefisien difusi maka semakin cepat proses difusi terjadi. Pada saat yang sama, arah difusi kontaminan sangat ditentukan oleh nilai theta (arah pergerakan arus) yang sesuai untuk pemodelan. Menurut Sampera dkk. (2018), pergerakan dan arah distribusi zat dalam air sangat dipengaruhi oleh konsentrasi zat itu sendiri dan kecepatan aliran air di wilayah tersebut. Di wilayah pesisir, konsentrasi pencemar akan menunjukkan nilai tertingginya di sekitar zona pasang surut. Hal konsentrasi pencemar akan menunjukkan nilai tertingginya di sekitar zona pasang surut. Hal ini dikarenakan banyaknya air laut yang mengalir dari laut ke daerah tersebut karena faktor pasang surut.
 
