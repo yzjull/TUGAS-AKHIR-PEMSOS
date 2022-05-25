@@ -48,7 +48,9 @@ Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform 
 ✰ Tipe-Tipe Persamaan : Eksplisit dan Implisit.
 
 ✰ Contoh Persamaan :
-![image](https://user-images.githubusercontent.com/103433885/170164350-a636dde2-e938-4bd6-a1f4-406ca458182b.png)
+![image](https://user-images.githubusercontent.com/103433885/170167934-a0fdaa56-a10e-4edf-bc1d-75ea891158ba.png)
+
+
 Terdapat beberapa metode untuk menyelesaikan persamaan diatas, diantaranya sebagai berikut.
 
 ✰ Metode FTCS : Metode ini merupakan gabungan dari selisih maju terhadap waktu dan selisih pusat terhadap ruang.
