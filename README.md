@@ -2,9 +2,9 @@
 ____
 HALOOO...HALLOOOOO 👋:wave::wave:...
 
-Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Oseanografi 2022. Dalam repositori ini memuat pembahasan modul 1 hingga modul 4, dengan topik bahasan Adveksi-Difusi 1 dimensi & 2 dimensi dan Pemodelan Hidrodinamika 1 dimensi & 2 dimensi dimulai dari teori dasar, tools serta script yang digunakan, serta hasil dan analisis yang dihasilkan.
+*Repository* ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Oseanografi 2022. Dalam *repository* ini memuat pembahasan modul 1 hingga modul 4, dengan topik bahasan Adveksi-Difusi 1 dimensi & 2 dimensi dan Pemodelan Hidrodinamika 1 dimensi & 2 dimensi dimulai dari teori dasar, *tools* serta *script* yang digunakan, serta hasil dan analisis yang dihasilkan.
 
-Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform untuk menggunakan bahasa pemrograman ini dapat menyesuaikan seperti Jupyter notebook, Visual studio code dan lain lain.
+Dalam *Repositori* ini, *Script* yang digunakan adalah bahasa Python, tetapi *platform* untuk menggunakan bahasa pemrograman ini dapat menyesuaikan seperti *Jupyter notebook*, Visual studio code dan lain lain.
 
 # Penulis (Kelompok 8)
 1. Adnan Izzul Muttaqin       26050120130102 OSE A
@@ -16,11 +16,11 @@ Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform 
 7. Muhammad Aulia Ababil      26050120140112 OSE B
 
 # **Cara Penggunaan Script Python💻**
-1. Script pyton dapat dibuka melalui folder pada repository ini, script python tersebut dapat dijalankan pada jupyter notebook, visual studio code, goodle colaboratory dan yang lainnya
+1. *Script* Pyton dapat dibuka melalui folder pada *repository* ini, *script* Python tersebut dapat dijalankan pada *jupyter notebook*, *visual studio code*, *goodle colaboratory* dan yang lainnya
 
 ![Screenshot 2022-05-25 071353](https://user-images.githubusercontent.com/105930126/170152353-b93e86da-5f2e-40d3-a0c0-52f4ed7caa86.jpg)
 
-2. Folder script tersebut jika dibuka akan menampilkan keseluruhan script
+2. Folder *script* tersebut jika dibuka akan menampilkan keseluruhan *script*
 
 ![Screenshot 2022-05-25 071449](https://user-images.githubusercontent.com/105930126/170152410-440a7eb4-fe95-4bbd-9d0d-27074ea399cf.jpg)
 
@@ -428,9 +428,9 @@ plt.show()
 # PENUTUP
 ## UCAPAN TERIMAKASIH
 Demikianlah *repository* dari tugas akhir Praktikum Pemodelan Oseanografi 2002. Kami selaku penulis *repository* mengucapkan permohonan maaf yang sebesar-besarnya apabila dalam penulisan *repository* ini masih banyak kekurangan. Kami juga ingin mengucapkan terima kasih kepada
-1. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu pada matakuliah Pemodelan Oseanografi 
-2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
-3. Dr. Elis Indrayanti, S.T., selaku dosen pengampu matakuliah Pemodelan Oseanografi
-4. Rikha Widhiaratih, S.Si., M.Si selaku dosen pengampu matakuliah Pemodelan Oseanografi
+1. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu pada mata kuliah Pemodelan Oseanografi 
+2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+3. Dr. Elis Indrayanti, S.T., selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+4. Rikha Widhiaratih, S.Si., M.Si selaku dosen pengampu mata kuliah Pemodelan Oseanografi
 5. Seluruh Asisten Praktikum Pemodelan Oseanografi yang telah membimbing praktikan selama praktikum Pemodelan Oseanografi
 6. Teman-teman Oseanografi 2020 yang telah ikut serta membantu atas tersusunnya *repository* ini.
