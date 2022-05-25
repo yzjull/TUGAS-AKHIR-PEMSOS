@@ -2,25 +2,25 @@
 ____
 HALOOO...HALLOOOOO 👋:wave::wave:...
 
-*Repository* ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Oseanografi 2022. Dalam *repository* ini memuat pembahasan modul 1 hingga modul 4, dengan topik bahasan Adveksi-Difusi 1 dimensi & 2 dimensi dan Pemodelan Hidrodinamika 1 dimensi & 2 dimensi dimulai dari teori dasar, *tools* serta *script* yang digunakan, serta hasil dan analisis yang dihasilkan.
+Repositori ini dibuat dalam rangka memenuhi tugas akhir Praktikum Pemodelan Oseanografi 2022. Dalam repositori ini memuat pembahasan modul 1 hingga modul 4, dengan topik bahasan Adveksi-Difusi 1 dimensi & 2 dimensi dan Pemodelan Hidrodinamika 1 dimensi & 2 dimensi dimulai dari teori dasar, tools serta script yang digunakan, serta hasil dan analisis yang dihasilkan.
 
-Dalam *Repositori* ini, *Script* yang digunakan adalah bahasa Python, tetapi *platform* untuk menggunakan bahasa pemrograman ini dapat menyesuaikan seperti *Jupyter notebook*, Visual studio code dan lain lain.
+Dalam Repositori ini, Script yang digunakan adalah bahasa python Namun Platform untuk menggunakan bahasa pemrograman ini dapat menyesuaikan seperti Jupyter notebook, Visual studio code dan lain lain.
 
 # Penulis (Kelompok 8)
 1. Adnan Izzul Muttaqin       26050120130102 OSE A
 2. Dika Surya Pratama         26050120120011 OSE A
 3. Anindita Rahma Candrasekar 26050120130111 OSE A
 4. Eldeenio Akeyla Ibrahim
-5. Zalfa Karima
+5. Zalfa Karima               26050120140040 OSE B
 6. Nadina Raisa               26050120140161 OSE B
 7. Muhammad Aulia Ababil      26050120140112 OSE B
 
 # **Cara Penggunaan Script Python💻**
-1. *Script* Pyton dapat dibuka melalui folder pada *repository* ini, *script* Python tersebut dapat dijalankan pada *jupyter notebook*, *visual studio code*, *goodle colaboratory* dan yang lainnya
+1. Script pyton dapat dibuka melalui folder pada repository ini, script python tersebut dapat dijalankan pada jupyter notebook, visual studio code, goodle colaboratory dan yang lainnya
 
 ![Screenshot 2022-05-25 071353](https://user-images.githubusercontent.com/105930126/170152353-b93e86da-5f2e-40d3-a0c0-52f4ed7caa86.jpg)
 
-2. Folder *script* tersebut jika dibuka akan menampilkan keseluruhan *script*
+2. Folder script tersebut jika dibuka akan menampilkan keseluruhan script
 
 ![Screenshot 2022-05-25 071449](https://user-images.githubusercontent.com/105930126/170152410-440a7eb4-fe95-4bbd-9d0d-27074ea399cf.jpg)
 
@@ -40,6 +40,42 @@ Dalam *Repositori* ini, *Script* yang digunakan adalah bahasa Python, tetapi *pl
   [Modul 4](#modul-4)
   
 ## 🗂️ **MODUL 1**
+
+### :label: Pendahuluan 
+  ***
+✰ Adveksi adalah mekanisme perpindahan massa dalam suatu materi, dari satu titik ke titik lainnya yang memiliki kaitan erat dengan fluida. Dalam pengaplikasian adveksi ini dapat dicontohkan berdasarkan Persamaan Gelombang Linear Orde-1 dan termasuk ke dalam persamaan diferensial hiperbolik yang dapat menggambarkan mekanisme transportasi suatu zat gas atau cair dengan arah tertentu.
+
+✰ Tipe-Tipe Persamaan : Eksplisit dan Implisit.
+
+✰ Contoh Persamaan :
+![image](https://user-images.githubusercontent.com/103433885/170164350-a636dde2-e938-4bd6-a1f4-406ca458182b.png)
+Terdapat beberapa metode untuk menyelesaikan persamaan diatas, diantaranya sebagai berikut.
+
+✰ Metode FTCS : Metode ini merupakan gabungan dari selisih maju terhadap waktu dan selisih pusat terhadap ruang.
+![image](https://user-images.githubusercontent.com/103433885/170165238-df23c7d5-1301-4b98-9fdd-e75901fc9c0a.png)
+
+✰ Metode Leapfrog : Di dalam metode beda hingga ini, terdapat suatu skema yang didapatkan dari turunan deret taylor dan tergolong ke dalam skema yang kosisten (apabila nilai C kurang dari sama dengan 1)
+![image](https://user-images.githubusercontent.com/103433885/170165444-cd3ff068-65cc-4b06-b508-5dc907b4f049.png)
+
+✰ Metode Upstream : Metode ini meruoakan skema yang digunakan untuk melengkapi ketidak sempurnaan dari metode sebelumnya, yaitu leapfrog dengan menggunakan pendekatan beda maju untuk turunan waktu.  Sedangkan, untuk turunqn terhadap ruang dilakukan dengan melihat arah u.
+![image](https://user-images.githubusercontent.com/103433885/170165801-dcf6d76e-519a-48ed-904c-38bc4de3abae.png)
+
+✰ Pada penjelasan sebelumnya, telah dipaparkan definisi mengenai adveksi. Berikutnya mengenai difusi yang merupakan proses dimana suatu zal bergerak dari konsentrasi yang tinggi menuju rendah.
+
+✰ Contoh Pengaplikasian Difusi dalam Bidang Oseanografi : Oil Spill.
+
+✰ Contoh Persamaan :
+![image](https://user-images.githubusercontent.com/103433885/170167112-32a2fdfb-4c46-4ccb-8253-55feab08b40d.png)
+
+✰ Diskritisasi : proses kuantisasi sifat-sifat kontinu. Dalam metode FTCS dalam adveksi, diskritisasi dari rumus awal dapat dijabarkan sebagai berikut.
+![image](https://user-images.githubusercontent.com/103433885/170167535-9bc351a8-8385-4607-bcef-777a232479ed.png)
+
+### :label: Kesimpulan
+  ***
+Berdasarkan metode-metode yang dijelaskan diatas, dihasilkan skema yang berbeda-beda dan setelah diuji, nilai kestabilan terkecil berada di metode FTCS.
+
+
+
 ## :card_index_dividers: **MODUL 2 : ADVEKSI-DIFUSI 2 DIMENSI**
 
 ### :label: Pendahuluan 
@@ -428,9 +464,9 @@ plt.show()
 # PENUTUP
 ## UCAPAN TERIMAKASIH
 Demikianlah *repository* dari tugas akhir Praktikum Pemodelan Oseanografi 2002. Kami selaku penulis *repository* mengucapkan permohonan maaf yang sebesar-besarnya apabila dalam penulisan *repository* ini masih banyak kekurangan. Kami juga ingin mengucapkan terima kasih kepada
-1. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu pada mata kuliah Pemodelan Oseanografi 
-2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
-3. Dr. Elis Indrayanti, S.T., selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-4. Rikha Widhiaratih, S.Si., M.Si selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+1. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu pada matakuliah Pemodelan Oseanografi 
+2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
+3. Dr. Elis Indrayanti, S.T., selaku dosen pengampu matakuliah Pemodelan Oseanografi
+4. Rikha Widhiaratih, S.Si., M.Si selaku dosen pengampu matakuliah Pemodelan Oseanografi
 5. Seluruh Asisten Praktikum Pemodelan Oseanografi yang telah membimbing praktikan selama praktikum Pemodelan Oseanografi
 6. Teman-teman Oseanografi 2020 yang telah ikut serta membantu atas tersusunnya *repository* ini.
